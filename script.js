@@ -1,1 +1,3 @@
-window.open("exton-cs.me")
+function redirect() {
+   window.open("https://exton-cs.me/")
+}
