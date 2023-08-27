@@ -1,3 +1,4 @@
 function redirect() {
-   window.open("https://exton-cs.me/")
-}
+   window.location.href("https://exton-cs.me/")
+};
+setTimeout(redirect, 3000);
