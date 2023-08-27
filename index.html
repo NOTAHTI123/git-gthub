@@ -3,18 +3,117 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BETA-EXTON</title>
+    <title>EXTON store PK</title>
     <link rel="stylesheet" href="style.css">
+
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@100;200;300;400;500;600;700&family=Montserrat:wght@300&display=swap" rel="stylesheet">
+
+    <!--cdnjs Font Awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <link rel="stylesheet"
     href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    
 </head>
+
 <body>
-    <section>
-        <h1>EXTON</h1>
-        <h3>You are being redirected from our subdomain in 3 seconds.</h3>
-        <h5>If you are not automatically redirected, <a href="https://exton-cs.me/">click here</a></h5>
+
+    <header>
+        <div class="navigation-bar">
+
+            <img src="images/logo.png" alt="#" class="logo">
+
+            <ul class="navigation-buttons">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Shop</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">Page</a></li>
+                <li><a href="#">Docs</a></li>
+            </ul>
+            <div class="nav-icon">
+                <a href="#"><i class='bx bx-search'></i></a>
+                <a href="#"><i class='bx bxs-user' ></i></a>
+                <a href="#"><i class='bx bx-cart' ></i></a>
+    
+                <div class="bx bx-menu" id="menu-icon"></div>   
+            </div>
+
+        </div>
+    </header>
+
+    <section class="banner">
+        <div class="heading-text">
+            <h3>Power Sale 2023</h3>
+            <p>Up to <span>50%</span> off</p>
+        </div>
     </section>
+
+
+    <h4 class="available-items-heading">Available Items</h4>
+
+    <section class="available-products">
+
+        <div class="item-template">
+            <img src="images/1.jpg" alt="#">
+            <h5>Flower Suit</h5>
+            <p>$99.99</p>
+        </div>
+
+        <div class="item-template">
+            <img src="images/2.jpg" alt="#">
+            <p class="hot">HOT</p>
+            <h5>Short Bottom</h5>
+            <p>$69.99</p>
+        </div>
+
+        <div class="item-template">
+            <img src="images/3.jpg" alt="#">
+            <h5>Short Sports</h5>
+            <p>$59.99</p>
+        </div>
+
+        <div class="item-template">
+            <img src="images/4.jpg" alt="#">
+            <h5>Yellow Suit</h5>
+            <p>$109.99</p>
+        </div>
+
+        <div class="item-template">
+            <p class="hot">HOT</p>
+            <img src="images/5.jpg" alt="#">
+            <h5>Jeans</h5>
+            <p>$29.99</p>
+        </div>
+
+        <div class="item-template">
+            <p class="hot">HOT</p>
+            <img src="images/7.jpg" alt="#">
+            <h5>Casual Wear</h5>
+            <p>$79.99</p>
+        </div>
+
+        <div class="item-template">
+            <img src="images/8.jpg" alt="#">
+            <h5>Country Clothes</h5>
+            <p>$59.99</p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="foot-elements">
+            <img src="images/logo.png" alt="#" class="logo">
+        </div> 
+        <div class="our-cs-copyright">
+            <p>©2023 OUR coders limited</p>
+        </div>
+        <div class="foot-links-social">
+            <a href="https://github.com/NOTAHTI123"><i class='bx bxl-github'></i></a>
+        </div>
+    </footer>
+
     <script src="script.js"></script>
 </body>
 </html>

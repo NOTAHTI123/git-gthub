@@ -1,4 +1,4 @@
-function redirect() {
-   window.location.href = "https://exton-cs.me/";
-};
-setTimeout(redirect, 3000);
+const nav_bar = document.querySelector('.navigation-bar');
+
+window.addEventListener('scroll', ()=>{
+    nav_bar.classList.toggle('scroll-active', window.scrollY > 0)});
