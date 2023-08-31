@@ -209,7 +209,7 @@ footer {
 @media screen and (max-width: 794px) {
     .navigation-bar .logo {
         margin-left: 10vh;
-        border: 2px solid red;
+        background-color: red;
     }
 
     .navigation-buttons .nav-icon, #menu-icon {
@@ -250,3 +250,10 @@ footer {
         align-items: center;;
     }
 }
+
+/* @media screen and (max-width: 441px) {
+    .navigation-buttons .nav-icon, #menu-icon {
+        position: relative;
+        margin-right: 10vh;
+    }
+} */
