@@ -24,6 +24,10 @@
     transition: .45s ease;
 }
 
+.bx-menu {
+    visibility: hidden;
+}
+
 .navigation-bar.sticky {
     background: #fff;
     padding: 20px 10%;
@@ -217,5 +221,9 @@ footer {
 
     .heading-text p {
         font-size: 16px;
+    }
+
+    .bx-menu {
+        visibility: unset;
     }
 }
