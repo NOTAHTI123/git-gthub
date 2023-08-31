@@ -24,10 +24,6 @@
     transition: .45s ease;
 }
 
-.bx-menu {
-    visibility: hidden;
-}
-
 .navigation-bar.sticky {
     background: #fff;
     padding: 20px 10%;
@@ -204,6 +200,12 @@ footer {
     transition: .42s ease;
 }
 
+@media screen and (min-width: 795px) {
+    #menu-icon {
+        visibility: hidden;
+    }
+}
+
 @media screen and (max-width: 794px) {
     .navigation-buttons {
         position: relative;
@@ -223,7 +225,7 @@ footer {
         font-size: 16px;
     }
 
-    .bx-menu {
+    #menu-icon {
         visibility: unset;
     }
 }
