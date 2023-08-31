@@ -46,7 +46,7 @@
 
 .navigation-buttons a {
     color: rgba(0, 0, 0, 0.767);
-    transition: all .42s ease;
+    transition: all .42s;
 }
 
 .navigation-buttons a:hover {
@@ -101,10 +101,13 @@
 .heading-text {
     position: relative;
     left: 15%;
+    display: block;
+    margin: 20px 0;
 }
 
 .heading-text h3 {
     font-size: 60px;
+    text-transform: capitalize;
 }
 
 .heading-text p {
@@ -183,4 +186,36 @@ footer {
     float: right;
     position: relative;
     bottom: 20px;
+}
+
+.navigation-buttons.mobile-view {
+    position: absolute;
+    top: 80%;
+    right: 0;
+    width: 300px;
+    height: 130vh;
+    background: #fff;
+    align-items: center;
+    line-height: 3rem;
+    transition: .42s ease;
+}
+
+@media screen and (max-width: 794px) {
+    .navigation-buttons {
+        position: relative;
+        flex-direction: column;
+        top: 7rem;
+        right: -100%;
+    }
+
+    .heading-text {
+        position: inherit;
+    }
+    .heading-text h3 {
+        font-size: 30px;
+    }
+
+    .heading-text p {
+        font-size: 16px;
+    }
 }
