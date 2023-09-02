@@ -209,7 +209,6 @@ footer {
 @media screen and (max-width: 794px) {
     .navigation-bar .logo {
         margin-left: 10vh;
-        background-color: red;
     }
 
     .navigation-buttons .nav-icon, #menu-icon {
@@ -251,9 +250,68 @@ footer {
     }
 }
 
-/* @media screen and (max-width: 441px) {
-    .navigation-buttons .nav-icon, #menu-icon {
+@media screen and (max-width: 441px) {
+    .nav-icon {
         position: relative;
-        margin-right: 10vh;
+        right: 3rem;
+        width: 12rem;
     }
-} */
+
+    .logo {
+        left: 1rem;
+    }
+
+    .available-items-heading {
+        width: fit-content;
+        position: relative;
+        right: 2.8rem;
+    }
+}
+
+@media screen and (max-width: 397px) {
+    .banner {
+        background: url('images/banner-3.png') no-repeat;
+        background-size: cover;
+        background-position: 70% 50%;
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        align-items: center;;
+    }
+    
+
+    .available-products {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(260px, auto));
+        gap: 2rem;
+        margin: 10px 30px;
+    }
+
+    .available-items-heading {
+        width: fit-content;
+        position: relative;
+        right: 2.8rem;
+    }
+}
+
+@media screen and (max-width: 353px) {
+
+    .available-items-heading {
+        width: fit-content;
+        position: relative;
+        right: 2.8rem;
+    }
+
+    #menu-icon {
+        font-size: 1.7rem;
+    }
+    .nav-icon i {
+        font-size: 1rem;
+    }
+
+    .navigation-bar .logo {
+        left: 2rem;
+        width: 6rem;
+        bottom: 0.25rem;
+    }
+}
